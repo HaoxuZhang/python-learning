@@ -1,0 +1,5 @@
+import string
+假设s是一个字符串,c是s中的迭代器，即for c in s:
+c.isalpha() 查看当前是否为字母
+c.isspace() 查看当前是否为空格
+c.isdigit() 查看当前是否为数字

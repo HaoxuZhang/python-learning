@@ -1,0 +1,3 @@
+例如先写一个using_name.py 之后可以在别的python文件中用 import using_name来调用这个函数。但是函数名不能以数字开头。
+如果一个函数是本身在运行，它的一个参数 __name__应该等于'__main__',否则说明是被调用的，例子可以见some-tests
+中的using_name.py和import_using_name.py

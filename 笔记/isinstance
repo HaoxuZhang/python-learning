@@ -1,0 +1,17 @@
+isinstance是Python中的一个内建函数
+语法：
+isinstance(object, classinfo)
+ 
+如果参数object是classinfo的实例，或者object是classinfo类的子类的一个实例， 返回True。如果object不是一个给定类型的的对象， 则返回结果总是False。
+如果classinfo不表示一个类（类型对象）, 那么它要么是一个类的元组, 或者递归地包含这样的（由数据类型构成的）元组.其他的序列类型是不被允许的。
+如果classinfo不是一种数据类型或者由数据类型构成的元组，将引发一个TypeError异常。
+ 
+举例：
+>>> isinstance(1, int)
+True
+>>> isinstance(1.0, float)
+True
+ 
+>>>isinstance(a,dict)  判断对象a是否为字典，如果为真，会打印True，如为假,打印False。
+
+https://www.cnblogs.com/linuxtech/p/5026753.html
